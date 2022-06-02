@@ -5,11 +5,11 @@ This little script is for replacing the Extension provided by Roland since it is
 ## Examples for correct Path formatting
 
 ### export_to_cutstudio.jsx :
-var batchfile = new File("D:/Theta-Agency/Entwicklung/CutStudio/start.bat");
+var batchfile = new File("D:/Theta-Agency/Entwicklung/CutStudio/start.bat");<br />
 exportFileToAi("D:/Theta-Agency/Entwicklung/CutStudio/temp.ai");
 
 ### start.bat:
-cd "C:\Program Files (x86)\CutStudio"
+cd "C:\Program Files (x86)\CutStudio"<br />
 start "" CutStudio.exe -import "D:\Theta-Agency\Entwicklung\CutStudio\temp.ai"
 
 
